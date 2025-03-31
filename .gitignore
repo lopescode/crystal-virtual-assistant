@@ -1,0 +1,60 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Env files
+.env
+.env.*.local
+*.env.local
+
+# Monorepo common build outputs
+dist/
+build/
+.cache/
+out/
+.next/
+.next/
+
+# Electron
+electron-out/
+release/
+tmp/
+*.log
+*.tsbuildinfo
+
+# NestJS
+**/dist/
+**/.tsbuildinfo
+
+# Next.js
+**/.next/
+**/out/
+**/coverage/
+
+# Test coverage
+coverage/
+*.lcov
+
+# Optional: if using TurboRepo or similar
+.turbo/
+.cache/
+
+# Mac system files
+._*
+
+# Windows system files
+ehthumbs.db
+Icon?
